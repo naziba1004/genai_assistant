@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "genai-flask-app"
+version = "0.1.0"
+description = ""
+authors = ["Naziba Mostafa <naziba.mostafa@hishab.co>"]
+readme = "README.md"
+packages = [{include = "genai_flask_app"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+google-genai = "^1.75.0"
+flask = "^3.1.3"
+langchain-google-genai = "^4.2.2"
+langchain = "^1.2.17"
+ibm-watsonx-ai = "1.3.39"
+langchain-ibm = "^1.0.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
